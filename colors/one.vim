@@ -848,6 +848,10 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " ALE (Asynchronous Lint Engine) highlighting -----------------------------{{{
   call <sid>X('ALEWarningSign', s:hue_6_2, '', '')
   call <sid>X('ALEErrorSign', s:hue_5,   '', '')
+  call <sid>X('LspDiagnosticsWarning', s:hue_6_2, '', '')
+  call <sid>X('LspDiagnosticsError', s:hue_5,   '', '')
+  call <sid>X('LspDiagnosticsVirtualTextWarning', s:hue_6_2, '', '')
+  call <sid>X('LspDiagnosticsVirtualTextError', s:hue_5,   '', '')
 
 
    " Neovim NERDTree Background fix ------------------------------------------{{{
